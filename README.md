@@ -14,7 +14,7 @@ The SHA-3 accelerator follows a modular design with the following key components
 - **Keccak-f[1600] Core**: Implements the permutation function using a round-based pipeline.
 - **State Registers**: Maintain intermediate hash state during processing.
 - **Control Unit**: Manages the flow of data and execution of the hashing algorithm.
-- 
+
 ## Verification
 - The design is verified using a testbench that checks hash outputs against known SHA-3 test vectors.
 
