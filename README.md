@@ -23,7 +23,7 @@ The SHA-3 accelerator follows a modular design with the following key components
 - Keccak Team: https://keccak.team
 
 
-## Descriptions of Circuits:
+## Descriptions of Circuits
 **Theta:** Fundamentally, the Theta circuit involves creating a reliance of all the bits on all the other bits through a series of XORs and rotations. My circuit includes a for loop that first initializes the variable bc through different xor circuits, then zips the bc array (functionally a zipWithIndex) to calculate and assign io.state_o.
 
 **RhoPi:** I did not write the RhoPi; the idea of the circuit however is to randomize the order and rotate all of the inputs. The testbench mirrors the software implementation.
